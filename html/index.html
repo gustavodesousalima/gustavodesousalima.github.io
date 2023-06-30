@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <!--Meta tags-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Title-->
+    <title>Gustavo Portfólio</title>
+    <!--CSS-->
+    <link rel="stylesheet" href="../css/extends.css">
+    <!--Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+
+<body class="">
+    <!--navBar-->
+    <nav class="navbar navbar__color">
+        <div class="navbar__content max-width mb-0 navbar__color">
+            <a href="#">
+                <p>Gustavo De Sousa Lima</p>
+            </a>
+            <ul class="navbar__links">
+                <li><a href="#header">Início</a></li>
+                <li><a href="#about">Sobre</a></li>
+                <li><a href="#skills">Habilidades</a></li>
+                <li><a href="#projects">Projetos</a></li>
+                <li><a href="#footer">Contato</a></li>
+                <li><img src="../assets/light64.png" alt="light" width="35vh" onclick="light()"></li>
+            </ul>
+            <div class="navbar__mobile">
+                <img class="light" src="../assets/light64.png" alt="light" width="35vh" onclick="light()">
+                <img src="../assets/menu.svg" alt="Menu" class="burguer"/>
+                <ul class="mobile__links">
+                    <li><a href="#header">Início</a></li>
+                    <li><a href="#about">Sobre</a></li>
+                    <li><a href="#skills">Habilidades</a></li>
+                    <li><a href="#projects">Projetos</a></li>
+                    <li><a href="#footer">Contato</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!--header-->
+    <header id="header" class="max-width">
+        <div class="header__left">
+            <h1>Desenvolvedor Front-end</h1>
+
+            <p>Olá, Meu nome é Gustavo, sou de São Paulo e tenho 21 anos. Meu objetivo é dar vida aos projetos por meio
+                de designs únicos e funcionais. Estou sempre em busca das melhores práticas e tecnologias para
+                proporcionar uma experiência excepcional aos usuários. Ao longo da minha jornada, adquiri habilidades em
+                desenvolvimento responsivo, garantindo que os sites se adaptem perfeitamente a diferentes dispositivos e
+                tamanhos de tela.</p>
+
+            <a href="#about" class="btn btn-primary">Saiba Mais!</a>
+
+        </div>
+
+        <div class="header__right">
+            <div class="header__image">
+                <img src="../assets/profile.jpg" alt="Gustavo De Sousa Lima">
+            </div>
+        </div>
+    </header>
+
+    <!--Sobre-->
+    <section id="about" class="about max-width">
+
+        <div class="about__left ">
+            <h2 class="secondary-title">Além do código: quem sou eu?</h2>
+
+            <ul>
+                <li><a href="mailto:gustavdesousalima@gmail.com"><img src="../assets/gmail.svg" alt="gmail"></a></li>
+                <li><a href="https://www.linkedin.com/in/gustavo-developer/" target="_blank"><img src="../assets/linkedin.svg" alt="Linkedin"></a></li>
+                <li><a href="https://github.com/GustavoDeSousaLima" target="_blank"><img src="../assets/github.svg" alt="github"></a></li>
+            </ul>
+
+        </div>
+
+        <div class="about__right">
+            <h3 class="tertiary-title mb-n">
+                Sou apaixonado por criar interfaces interativas e criativas
+            </h3>
+
+            <p>
+                Desde muito novo, tive contato com a tecnologia e sempre fui curioso para entender como as coisas
+                funcionam. Com o passar do tempo, descobri meu interesse em lidar com cores e usar minha criatividade
+                para produzir interfaces atraentes e de fácil usabilidade para os usuários.
+            </p>
+
+        </div>
+
+    </section>
+
+    <!--Habilidades-->
+    <section id="skills" class="skills">
+        <div class="skills__content max-width">
+            <h2>Habilidades</h2>
+            <p class="description">
+                Aqui estão as principais tecnologias que utilizo em meus projetos:
+            </p>
+            <ul>
+                <li class="skills__item">
+                    <div class="image-container">
+                        <img src="../assets/html5.svg" alt="html">
+                    </div>
+                    <h3>HTML</h3>
+                    <p>
+                        Utilizo HTML para estruturar o conteúdo das páginas da web, garantindo uma base sólida para o
+                        desenvolvimento.
+                    </p>
+                </li>
+
+                <li class="skills__item">
+                    <div class="image-container">
+                        <img src="../assets/css3.svg" alt="css">
+                    </div>
+                    <h3>CSS</h3>
+                    <p>
+                        Tenho experiência em CSS para criar estilos e personalizar o visual dos elementos, tornando as
+                        interfaces atraentes e esteticamente agradáveis.
+                    </p>
+                </li>
+
+                <li class="skills__item">
+                    <div class="image-container">
+                        <img src="../assets/javascript.svg" alt="javascript">
+                    </div>
+                    <h3>JavaScript</h3>
+                    <p>
+                        Utilizo JavaScript para adicionar interatividade e funcionalidades dinâmicas aos projetos,
+                        proporcionando uma experiência mais envolvente aos usuários
+                    </p>
+                </li>
+
+                <li class="skills__item">
+                    <div class="image-container">
+                        <img src="../assets/react.svg" alt="react" width="80vh">
+                    </div>
+                    <h3>React</h3>
+                    <p>
+                        Utilizo o React para criar componentes modulares e reutilizáveis, que facilitam a construção de
+                        interfaces complexas.
+                    </p>
+                </li>
+                <li class="skills__item">
+                    <div class="image-container">
+                        <img src="../assets/nodejs.svg" alt="nodejs">
+                    </div>
+                    <h3>NodeJS</h3>
+                    <p>
+                        Utilizo o Node.js para construir aplicativos web do lado do servidor.Ele permite que eu
+                        desenvolva aplicativos usando JavaScript tanto no cliente quanto no servidor, facilitando a
+                        sincronização entre as duas partes.
+                    </p>
+                </li>
+
+                <li class="skills__item">
+                    <div class="image-container">
+                        <img src="../assets/git.svg" alt="git">
+                    </div>
+                    <h3>Git</h3>
+                    <p>
+                        Utilizo sistemas de controle de versão, como Git, para gerenciar o código-fonte dos projetos,
+                        facilitando o trabalho colaborativo e o rastreamento de alterações.
+                    </p>
+                </li>
+
+                <li class="skills__item">
+                    <div class="image-container">
+                        <img src="../assets/mysql.png" alt="mysql">
+                    </div>
+                    <h3>Mysql</h3>
+                    <p>
+                        Tenho conhecimento em integração com bancos de dados no Node.js. Posso utilizar bancos de dados
+                        relacionais como o MySQL.
+                    </p>
+                </li>
+
+                <li class="skills__item">
+                    <div class="image-container">
+                        <img src="../assets/agile.png" alt="scrum" width="50vh">
+                    </div>
+                    <h3>Scrum</h3>
+                    <p>
+                        Tenho conhecimentos sobre a metodologia Scrum no desenvolvimento de projetos.
+                    </p>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <!--Projetos-->
+    <section id="projects" class="projects max-width">
+        <div class="projects__content">
+            <h2 class="secondary-title">Projetos em Destaque</h2>
+            <p>
+                Abaixo estão alguns dos meus principais projetos. Caso tenha interesse em conhecer outros, fique à vontade para visitar meu perfil no GitHub.
+            </p>
+        </div>
+        <ul>
+            <li>
+                <div class="image">
+                    <img src="../assets/task-manager.png" alt="Gerenciamento de tarefas">
+                </div>
+                <div class="projects__info">
+                    <h3 class="tertiary-title">Sistema de Gerenciamento de tarefas DEF</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Pariatur, explicabo. Lorem ipsum dolor
+                        sit amet, consectetur adipisicing elit. Recusandae, sequi.
+                    </p>
+                    <a href="#">Leia mais &rarr;</a>
+                </div>
+            </li>
+
+            <li class="projects__reversed-list">
+                <div class="image">
+                    <img src="../assets/task-manager.png" alt="Gerenciamento">
+                </div>
+                <div class="projects__info">
+                    <h3 class="tertiary-title">Desenvolvimento de Loja Virtual exemplodesite.com</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Pariatur, explicabo. Lorem ipsum dolor
+                        sit amet, consectetur adipisicing elit. Recusandae, sequi.
+                    </p>
+                    <a href="#">Leia mais &rarr;</a>
+                </div>
+            </li>
+
+            <li>
+                <div class="image">
+                    <img src="../assets/task-manager.png" alt="Gerenciamento">
+                </div>
+                <div class="projects__info">
+                    <h3 class="tertiary-title">App de delivery e Dashboard DeliveryJá</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Pariatur, explicabo. Lorem ipsum dolor
+                        sit amet, consectetur adipisicing elit. Recusandae, sequi.
+                    </p>
+                    <a href="#">Leia mais &rarr;</a>
+                </div>
+            </li>
+
+        </ul>
+    </section>
+
+    <!--footer-->
+    <footer id="footer" class="">
+        <div class="footer__content max-width mb-0">
+            <h2 class="tertiary-title mb-s">Vamos conversar!</h2>
+            <p class="mb-m">
+                Aqui estão todos os meus contatos profissionais. Fique à vontade para entrar em contato comigo.
+            </p>
+            <div class="footer__contact mb-m">
+                <span class="mb-m"><img src="../assets/whatsapp.svg" alt="whatsapp"></span>
+                <span class="mb-m">11 97206-9406</span>
+            </div>
+
+            <ul class="mb-1">
+                <li><a href="mailto:gustavdesousalima@gmail.com"><img src="../assets/gmail.svg" alt="gmail"></a></li>
+                <li><a href="https://www.linkedin.com/in/gustavo-developer/" target="_blank"><img src="../assets/linkedin.svg" alt="Linkedin"></a></li>
+                <li><a href="https://github.com/GustavoDeSousaLima" target="_blank"><img src="../assets/github.svg" alt="github"></a></li>
+            </ul>
+
+            <p class="footer__copyright">
+                &copy; 2023 Gustavo De Sousa Lima. Todos os direitos reservados.
+            </p>
+        </div>
+    </footer>
+
+    <!--script-->
+    <script src="../js/index.js"></script>
+</body>
+
+</html>
