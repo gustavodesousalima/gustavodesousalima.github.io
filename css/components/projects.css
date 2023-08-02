@@ -43,15 +43,21 @@
 .projects ul li .projects__info a {
     font-weight: 500;
     text-decoration: underline;
+    color: green;
+}
+
+.projects ul li .projects__info a:hover {
+    color: rgb(55, 255, 5);
 }
 
 @media only screen and (max-width: 768px) {
+
     .projects ul li,
     .projects ul li.projects__reversed-list {
         flex-direction: column;
     }
 
-    .projects ul li .projects__info{
+    .projects ul li .projects__info {
         max-width: 66rem;
     }
 

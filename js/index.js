@@ -26,27 +26,3 @@ window.addEventListener('scroll', function () {
 
     }
 });
-
-function light() {
-
-    if (temaEscuro === true) {
-
-        nav.classList.add('dark-theme')
-        nav.classList.remove('navbar__color')
-        body.classList.add('dark-theme')
-        div.classList.add('dark-theme')
-        footer.classList.add('dark-theme')
-        ul.classList.add('dark-theme')
-        temaEscuro = false;
-
-    } else {
-
-        nav.classList.remove('dark-theme')
-        nav.classList.add('navbar__color')
-        body.classList.remove('dark-theme')
-        div.classList.remove('dark-theme')
-        footer.classList.remove('dark-theme')
-        ul.classList.remove('dark-theme')
-        temaEscuro = true;
-    }
-}

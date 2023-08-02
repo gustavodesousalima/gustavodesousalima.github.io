@@ -15,9 +15,10 @@ body {
   margin-top: 12rem;
 }
 
+/* Tema escuro */
 .dark-theme {
   background-color: var(--dark-theme);
-  /* Tema escuro */
+
   color: var(--white);
 }
 

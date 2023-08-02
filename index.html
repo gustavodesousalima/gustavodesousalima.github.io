@@ -17,9 +17,9 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
 </head>
 
-<body class="">
+<body class="dark-theme">
     <!--navBar-->
-    <nav class="navbar navbar__color">
+    <nav class="navbar dark-theme">
         <div class="navbar__content max-width mb-0 navbar__color">
             <a href="#">
                 <p>Gustavo De Sousa Lima</p>
@@ -30,10 +30,8 @@
                 <li><a href="#skills">Habilidades</a></li>
                 <li><a href="#projects">Projetos</a></li>
                 <li><a href="#footer">Contato</a></li>
-                <li><img src="../assets/light64.png" alt="light" width="35vh" onclick="light()"></li>
             </ul>
             <div class="navbar__mobile">
-                <img class="light" src="../assets/light64.png" alt="light" width="35vh" onclick="light()">
                 <img src="../assets/menu.svg" alt="Menu" class="burguer" />
                 <ul class="mobile__links">
                     <li><a href="#header">Início</a></li>
@@ -106,7 +104,7 @@
     <!--Habilidades-->
     <section id="skills" class="skills">
         <div class="skills__content max-width">
-            <h2>Habilidades</h2>
+            <h2 class="secondary-title">Habilidades</h2>
             <p class="description">
                 Aqui estão as principais tecnologias que utilizo em meus projetos:
             </p>
@@ -211,16 +209,35 @@
             </p>
         </div>
         <ul>
+
+            <li>
+                <div class="image">
+                    <img src="./assets/sneakers.png" alt="E-commerce">
+                </div>
+                <div class="projects__info">
+                    <h3 class="tertiary-title">E-commerce</h3>
+                    <p>Sneakers.com é um e-commerce de tênis projetado para os amantes de calçados esportivos. O site
+                        foi criado utilizando tecnologias, como HTML, CSS e JavaScript, para oferecer uma experiência
+                        funcional e agradável aos usuários. Ele é responsivo, adaptando-se facilmente a diferentes
+                        dispositivos.
+                    </p>
+                    <a href="https://gustavodesousalima.github.io/sneakers.github.io/" target="_blank">Ver mais
+                        &rarr;</a>
+                </div>
+            </li>
+
             <li>
                 <div class="image">
                     <img src="./assets/imagecalculadora.png" alt="Calculadora IMC">
                 </div>
                 <div class="projects__info">
                     <h3 class="tertiary-title">Calculadora IMC</h3>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Pariatur, explicabo. Lorem ipsum dolor
-                        sit amet, consectetur adipisicing elit. Recusandae, sequi.
+                    <p>Uma calculadora de IMC (Índice de Massa Corporal) é uma ferramenta simples e útil para avaliar se
+                        uma pessoa está com um peso considerado saudável em relação à sua altura. O IMC é calculado
+                        dividindo o peso da pessoa em quilogramas pelo quadrado da sua altura em metros.
                     </p>
-                    <a href="https://gustavodesousalima.github.io/calculadoradeimc.github.io/" target="_blank">Ver mais &rarr;</a>
+                    <a href="https://gustavodesousalima.github.io/calculadoradeimc.github.io/" target="_blank">Ver mais
+                        &rarr;</a>
                 </div>
             </li>
 
@@ -228,7 +245,7 @@
     </section>
 
     <!--footer-->
-    <footer id="footer" class="">
+    <footer id="footer" class="dark-theme">
         <div class="footer__content max-width mb-0">
             <h2 class="tertiary-title mb-s">Vamos conversar!</h2>
             <p class="mb-m">
