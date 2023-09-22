@@ -6,6 +6,15 @@
   font-family: var(--font-family);
 }
 
+::-webkit-scrollbar{
+  background: rgb(31, 31, 48);
+}
+
+::-webkit-scrollbar-thumb{
+  background: var(--tertiary-color);
+  border-radius: 0.4vh;
+}
+
 html {
   font-size: 62.5%;
 }
