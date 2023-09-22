@@ -1,5 +1,6 @@
 footer {
-    background-color: var(--light-tertiary-color);
+    border-top: 2px solid var(--tertiary-color);
+    scroll-margin-top: 1rem ;
 }
 
 footer .footer__content{
@@ -30,4 +31,8 @@ footer .footer__content ul a{
 
 footer .footer__content .footer__copyright{
     font-size: 1.4rem;
+}
+
+.footer__content p {
+    color: var(--white);
 }

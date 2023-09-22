@@ -2,13 +2,15 @@
     --white: #ffffff;
     --gray: #d9d9d9;
     --black: #000000;
-    --primary-color: #02073e;
-    --secondary-color: #0f2137;
-    --dark-secondary-color: #3c415c;
-    --tertiary-color: #a6b1e1;
+    --primary-color: #f3f4ff;
+    --secondary-color: #5c99e4;
+    --tertiary-color: #6d85f0;
+    --border-nav-color: #1d60b3;
+    --dark-primary-color: #454968;
+    --dark-secondary-color: #0e4180;
     --light-tertiary-color: #f3f6fb;
     --text-color: #343d48;
-    --dark-theme: #9a9a9abe;
+    --dark-theme: #000000;
 
     --font-family: 'DM Sans', sans-serif;
   }

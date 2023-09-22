@@ -2,7 +2,7 @@
     display: flex;
     justify-content: space-between;
     gap: 4rem;
-    scroll-margin-top: 25rem;
+    scroll-margin-top: 13rem;
 }
 
 .about .about__left{
@@ -30,6 +30,10 @@
 .about .about__right {
     flex: 1;
     max-width: 66rem;
+}
+
+.about .about__right p {
+    color: var(--white);
 }
 
 @media only screen and (max-width: 768px) {
