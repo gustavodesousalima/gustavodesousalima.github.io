@@ -136,20 +136,4 @@ color: var(--secondary-color);
         text-align: center;
     }
 
-    .navbar .navbar__content .nav_title {
-        position: absolute;
-        top: -50px;
-        animation: cair 2s ease-in-out forwards;
-    }
-    
-    @keyframes cair {
-        0% {
-            top: -10vh;
-        }
-    
-        100% {
-            top: 4vh;
-        }
-    }
-
 }
